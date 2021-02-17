@@ -46,6 +46,11 @@ nav a:hover, #presentation a:hover
     font-weight: bold;
 }
 
+nav a, .couleur, i
+{
+    color: cornsilk;
+}
+
 
 img
 {
@@ -93,7 +98,7 @@ h3 + p
 
 blockquote p
 {
-    background: #f9f9f9;
+    /*background: #f9f9f9;*/
     border-radius: 5px;
     padding: 15px;
     font-style: italic;
