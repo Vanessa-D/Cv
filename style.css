@@ -22,8 +22,6 @@ body
 {
     font-family: 'anonymousregular', 'Trebuchet MS', sans-serif;
     text-align: center;
-    /*font-size: 36px;*/
-    /*padding: 0px 150px;*/
     background-color: black;
     color: cornsilk;
 }
@@ -71,7 +69,6 @@ h1
 {
     font-weight: normal;
     margin-bottom:0;
-    /*font-size:96px;*/
 }
 
 h1, h2, h3
@@ -124,11 +121,6 @@ h3 + ul
     padding-left: 80px;
 }
 
-a
-{
-    color: black;
-}
-
 /*Clignotement pendant 1,2 secondes suivant la règle "clignoter" à l'infini*/
 .tiret_clignotant
 {
@@ -149,19 +141,40 @@ a
 }
 
 /*Class copié-collé Font Awesome*/
-.fas fa-angle-double-up, i
+.fas fa-angle-double-up
 {
     width: 25px;
-    /*box-shadow: 2px 2px 2px black;*/
+}
+
+a, footer i
+{
+    color: black;
 }
 
 footer
 {
     background-image: url(images/image1.jpg);
     height: 310px;
+    color: black;
 }
 
-footer 
+#reseaux, #reseaux a
 {
-    color: black;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer a
+{
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+footer h2
+{
+    margin-bottom: 80px;
 }
